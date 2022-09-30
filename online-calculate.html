@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="online-calculate.css" />
+  </head>
+  <body>
+    <h1>Online Character Counter: Calculate String Length</h1>
+    <div class="pembungkus">
+      <textarea
+        name=""
+        id="textarea"
+        cols="30"
+        rows="10"
+        onkeyup="key(event)"
+      ></textarea>
+      <div
+        style="
+          display: grid;
+          grid-template-columns: auto auto auto;
+          width: 50%;
+          margin: auto;
+        "
+      >
+        <p id="length">0 Length</p>
+        <p id="symbol">0 Symbol</p>
+        <p id="number">0 Number</p>
+        <p id="space">0 Space</p>
+        <p id="up">0 Upper Case</p>
+        <p id="lc">0 Lower Case</p>
+      </div>
+    </div>
+    <script src="online-calculate.js"></script>
+  </body>
+</html>
